@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Landing Page using HTML CSS & JS</title>
+    <!-- ==== STYLE.CSS ==== -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- ==== REMIXICON CDN ==== -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+</head>
+<body>
+        <!-- ==== NAVBAR ==== -->
+        <header>
+            <nav class="navbar container">
+                <div class="logo">
+                    <img src="./img/sports.jpg.png" alt="logo">
+                    <a href="#">intersport</h4>
+                </div>
+
+                <button class="toggle_btn" id="toggle_btn">
+                    <i class="ri-menu-line"></i>
+                </button>
+                
+                <div class="nav_menu" id="nav_menu"> 
+                    <button class="close_btn" id="close_btn">
+                        <i class="ri-close-line"></i>
+                    </button>
+                    <ul class="nav_menu_list"> 
+                        <li class="nav_menu_item"><a href="#" class="nav_menu_item_link active">home</a></li>
+                        <li class="nav_menu_item"><a href="#" class="nav_menu_item_link">blog</a></li>
+                        <li class="nav_menu_item"><a href="#" class="nav_menu_item_link">about us</a></li>
+                        <li class="nav_menu_item"><a href="#" class="nav_menu_item_link">services</a></li>
+                        <li class="nav_menu_item"><button class="register_btn">sign up</button></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+        <br><br>
+
+        <!-- ==== HERO ==== -->
+        <main class="hero">
+            <section class="wrapper">
+                <div class="hero_content">
+                     <div class="hero_img_wrapper">
+                        <div class="hero_img">
+                            <img src="./img/intersport.jpg" alt="img">
+                        </div>
+                    </div>
+                    <div class="hero_about_wrapper">
+                        <div class="hero_about">
+                           <h4 class="title">Play For The Nation</h4>
+                           <div class="main_title">
+                                <h3>“You are never really playing an opponent. You are playing yourself, your own highest standards.”
+                                   <br> <span class="author_name">Mohit Patil</span>
+                                </h3>
+                           </div>
+                           <div class="tagline">
+                               <p>Identify your sporting skills, execute and taste the success</p>
+                           </div>
+                           <div class="btn_wrapper">
+                               <button class="btn_contact">Contact us</button>
+                               <button class="btn_watch">Watch the intro video <i class="ri-play-line"></i></button>
+                           </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+
+<!-- ==== MAIN.JS ==== -->
+<script src="./js/main.js" defer></script>
+<!-- ==== GSAP CDN ==== -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"></script>   
+</body>
+</html>
